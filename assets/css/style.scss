@@ -1,0 +1,10 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* テーブルが画面幅を超えるときは横スクロール */
+.main-content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
