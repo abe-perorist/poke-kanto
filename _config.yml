@@ -1,0 +1,4 @@
+title: ポケパーク カントー 家族旅行プラン
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
