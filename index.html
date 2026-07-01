@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ポケパーク カントー 攻略ガイド</title>
+<style>
+  :root {
+    --accent: #6b46c1;
+    --accent-dark: #553c9a;
+    --border: #e2e2e2;
+    --bg-soft: #f7f6fb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
+    color: #24292f;
+    line-height: 1.7;
+    background: #fff;
+  }
+  header {
+    background: linear-gradient(120deg, var(--accent), var(--accent-dark));
+    color: #fff;
+    padding: 3rem 1.5rem 2.5rem;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 0.5rem; font-size: 1.8rem; }
+  header p { margin: 0; opacity: 0.9; }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  h2 {
+    margin-top: 2.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--border);
+    font-size: 1.4rem;
+  }
+  h3 { margin-top: 1.8rem; font-size: 1.1rem; }
+  .table-wrap { overflow-x: auto; margin: 1rem 0; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.92rem;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+  th { background: var(--bg-soft); }
+  tr:nth-child(even) td { background: #fafafa; }
+  .note {
+    background: var(--bg-soft);
+    border-left: 4px solid var(--accent);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+  }
+  .note.warn { border-left-color: #d97706; background: #fffaf0; }
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0.8rem 0;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+  figcaption, .caption {
+    font-size: 0.85rem;
+    color: #57606a;
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+  }
+  pre {
+    background: var(--bg-soft);
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: 0.4rem; }
+  .todo li { list-style: none; margin-left: -1.3rem; }
+  .todo input { margin-right: 0.5rem; }
+  a { color: var(--accent-dark); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+  footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.85rem;
+    padding: 2rem 1rem 3rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ポケパーク カントー 攻略ガイド</h1>
+  <p>4人家族（大人2名・小3男子・小1女子）でポケパーク カントーを満喫するための攻略ガイド</p>
+</header>
+
+<main>
+
+<h2>基本情報</h2>
+<div class="table-wrap">
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td><strong>訪問日</strong></td><td><strong>2026年7月以降</strong></td></tr>
+<tr><td>チケット</td><td>トレーナーズパス（フォレスト+タウン両エリア対応）</td></tr>
+<tr><td><strong>営業時間</strong></td><td><strong>12:00〜20:00</strong>（2026年7月〜・公式発表）</td></tr>
+<tr><td><strong>整理券エントリー開始</strong></td><td>よみうりランド入園後、かつ<strong>12:00以降</strong></td></tr>
+<tr><td>フォレスト入場</td><td>予約時間帯（トレーナーズパスのチケットで指定）</td></tr>
+<tr><td>会場</td><td>よみうりランド遊園地内（東京都稲城市）</td></tr>
+<tr><td>キャッシュレス</td><td><strong>現金一切不可</strong>。カード・スマホ決済のみ</td></tr>
+<tr><td>パレード「ピカブイバブルカーニバル」</td><td>1日2回（具体的な時間は営業時間変更に伴い変わっている可能性あり。来園前に公式アプリで確認）</td></tr>
+</table>
+</div>
+
+<div class="note">
+12:00開園・12:00からの整理券エントリーのため、<strong>早朝から並んでも意味がない</strong>。11:45頃の到着で十分。
+</div>
+
+<h2>アクセス</h2>
+<p>京王よみうりランド駅からよみうりランドへ：バス（読01系統）約5分 or ゴンドラ「スカイシャトル」往復500円/人（早い時間は未運行の場合あり → バス推奨）</p>
+
+<div class="note warn">
+<strong>入園ゲートの注意：</strong> よみうりランドのゲート（スカイゲート）には2列ある。<strong>左側がポケパーク カントー専用列、右側が通常列。</strong> 必ず左側に並ぶ。
+</div>
+
+<img src="images/entrance-queue.png" alt="入園列の案内（2026年3月現在）">
+<p class="caption">赤＝ポケパーク列（左）、青＝よみうりランド列（右）。念のため案内看板をしっかり確認して正しく並ぶこと。</p>
+
+<h3>入園後 → ポケパーク カントーへの動き方</h3>
+<ol>
+<li>ゲートを通過したら<strong>左手のエスカレーターを降りる</strong></li>
+<li>案内看板が少ないため、わからなければスタッフや他の来場者に確認</li>
+<li><strong>徒歩約10分</strong>でポケパーク カントーのエントランスに到着</li>
+</ol>
+
+<h3>エントランス広場の配置</h3>
+<pre>        [ カヤツリタウン（正面） ]
+左：ポケモンフォレスト     右：ポケモンだいすきショップ
+             ↑ エントランス（ここで立ち止まって整理券エントリー）</pre>
+
+<p>到着したらすぐに動かず、<strong>この場で整理券をエントリーしてから各エリアへ向かう。</strong></p>
+
+<div class="note warn">
+<strong>ポケパーク入口は激混み（チケットなしでも入れるため）。</strong>入口での写真撮影は後回しでOK → スルーしてカヤツリタウンへ直行。
+</div>
+
+<h2>当日の流れ</h2>
+<div class="table-wrap">
+<table>
+<tr><th>時刻目安</th><th>行動</th><th>ポイント</th></tr>
+<tr><td>11:45頃</td><td>よみうりランド到着 → ポケパーク カントー専用列に並ぶ</td><td>開園に合わせて並べば十分</td></tr>
+<tr><td><strong>12:00</strong></td><td><strong>入園 → 整理券を即エントリー</strong></td><td>だいすきショップ・ふれあいハウス（先着）／ピカピカスパーク（抽選）を大人で分担</td></tr>
+<tr><td>12:00〜</td><td>カヤツリタウン探索（トレーナーズマーケット・ランチ・ワゴン類など）</td><td>整理券の待ち時間を有効活用</td></tr>
+<tr><td>予約時間帯</td><td><strong>ポケモンフォレスト入場</strong></td><td>再入場不可。入場前にトイレを済ませる（エリア内トイレなし）</td></tr>
+<tr><td>（時間は要確認）</td><td>パレード「ピカブイバブルカーニバル」（1日2回）</td><td>噴水周りの鑑賞エリアは段階的に解放。直前まで待って正面（ポケモンセンター横）を狙うのもアリ</td></tr>
+<tr><td>整理券の時間に合わせて</td><td>ポケモンだいすきショップ</td><td>会計1回限り。事前に欲しいものリストを作る</td></tr>
+<tr><td>20:00</td><td>閉園</td><td></td></tr>
+</table>
+</div>
+
+<h2>カヤツリタウン 施設一覧</h2>
+<div class="table-wrap">
+<table>
+<tr><th>施設</th><th>種別</th><th>メモ</th></tr>
+<tr><td>ポケモンセンター</td><td>体験</td><td>ぬいぐるみ回復体験。<strong>ショーの時間と被らないよう注意</strong></td></tr>
+<tr><td>フレンドリィショップ</td><td>飲食・購入</td><td>ゲームアイテム再現グッズ購入可。裏にポケパーク限定マンホールあり</td></tr>
+<tr><td>カヤツリジム</td><td>アトラクション</td><td><strong>ピカピカスパーク</strong>開催（整理券抽選）。たまに食事スペースとして解放（アプリ通知あり）</td></tr>
+<tr><td>ピカピカパラダイス</td><td>アトラクション</td><td>1,200円/人</td></tr>
+<tr><td>ブイブイヴォヤージュ</td><td>アトラクション</td><td>1,200円/人</td></tr>
+<tr><td><strong>ポケモンふれあいハウス</strong></td><td>体験</td><td><strong>整理券（先着）</strong>。8匹から3匹が登場・うち1体と触れ合い</td></tr>
+<tr><td><strong>ポケモントレーナーズマーケット</strong></td><td>ショップ</td><td><strong>モンスターボール入りピンズはここ</strong>。スタッフとの交換も可</td></tr>
+<tr><td>デカヌチャンワゴン</td><td>ワゴン</td><td>名入れキーホルダー（ピカチュウ・イーブイ各1,800円）。<strong>先に注文→後で受け取りがベスト</strong></td></tr>
+<tr><td>ニャースワゴン</td><td>ワゴン</td><td>ポケカ風フォトフレーム無料配布。日替わりポケモン撮影ミッション→ステッカーもらえる</td></tr>
+<tr><td>ディグダワゴン</td><td>ミニゲーム</td><td>無料。1人1本・何回でもOK。成功/失敗でそれぞれステッカーもらえる</td></tr>
+<tr><td>インフォメーションワゴン</td><td>案内</td><td>—</td></tr>
+<tr><td>カヤツリタウン エグジット</td><td>出口</td><td>タウン→だいすきショップへの行き来は<strong>再入場スタンプ</strong>が必要</td></tr>
+</table>
+</div>
+
+<h2>整理券について</h2>
+<p><strong>よみうりランド入園後、かつ12:00以降から整理券エントリー可能（公式情報）。</strong> ゲート通過後、エントリー開始まで数分かかる場合あり。</p>
+
+<img src="images/gate-app-flow.png" alt="ゲート通過後の整理券エントリー手順">
+
+<h3>整理券対象イベント（公式）</h3>
+<div class="table-wrap">
+<table>
+<tr><th>施設</th><th>方式</th><th>応募制限</th></tr>
+<tr><td><strong>ポケモンふれあいハウス</strong></td><td>先着</td><td>1日1回</td></tr>
+<tr><td><strong>ポケモンだいすきショップ</strong></td><td>先着</td><td>1日1回</td></tr>
+<tr><td><strong>ピカピカスパーク（カヤツリジム ショー）</strong></td><td>抽選</td><td>1種類につき1日1回</td></tr>
+</table>
+</div>
+
+<p>フォレストの予約時間帯とパレードの時間を避けるように、整理券の時間帯を選ぶと動きやすい（各回の詳細時間は公式アプリで確認）。</p>
+
+<h3>事前準備</h3>
+<ul>
+<li>家族のチケットが別々に購入されている場合、アプリで<strong>グループ作成＋チケット共有</strong>を訪問前日までに済ませておく（代表者が家族全員分の整理券を一括取得するために必要）</li>
+<li>アプリはログイン済み状態にしておく</li>
+</ul>
+
+<h2>フード・ランチガイド</h2>
+<h3>店舗一覧</h3>
+<div class="table-wrap">
+<table>
+<tr><th>店舗</th><th>おすすめメニュー</th><th>特徴</th></tr>
+<tr><td><strong>ピカチュウのおにぎり屋</strong></td><td>おにぎりセット（トレー付き）・豚汁</td><td>子どもが喜ぶ見た目</td></tr>
+<tr><td><strong>チルタリスの羽休みキッチン</strong></td><td>バケットサンド・ワッフルサンド・デミグラススープ</td><td>本格洋食。「ほうれん草のポテト」人気</td></tr>
+<tr><td><strong>イーブイカフェ</strong></td><td>Vイズのラテアート・アイスバー・クリームパン</td><td>写真映え。軽食向き</td></tr>
+<tr><td><strong>フレンドリィショップ</strong></td><td>御三家スペシャルドリンク・おいしいみず・サイコソーダ・ミックスオレ・アイシングクッキー・オリジナルペットボトルドリンク</td><td>ゲームアイテム再現グッズが買える唯一の店</td></tr>
+<tr><td><strong>カビゴンのポップコーン</strong></td><td>カビゴンポップコーンバケット（4,500円）</td><td>笛付き・お腹ぷにぷに。精巧な作り</td></tr>
+</table>
+</div>
+
+<h3>ランチのタイミング</h3>
+<ul>
+<li><strong>子ども向け食べ物が少ないため、パンなどを持参しておくと安心</strong></li>
+<li>12〜14時はピーク。<strong>座席確保が非常に困難</strong></li>
+<li>座れる場所：<strong>フレンドリィショップ裏・ポケモンセンター裏</strong>に一部テーブルあり（フレンドリィショップ裏にはポケパーク限定マンホールも）</li>
+<li>カヤツリタウンはスタンプで再入場可。<strong>よみうりランド側のレストランで食べてから入場</strong>も選択肢</li>
+<li><strong>カヤツリジムが解放されたタイミング</strong>で食事できる場合あり（アプリ通知が来る）</li>
+</ul>
+
+<h2>グッズ・お土産ガイド</h2>
+<div class="table-wrap">
+<table>
+<tr><th>アイテム</th><th>価格</th><th>場所</th><th>メモ</th></tr>
+<tr><td>モンスターボール入りピンバッジ</td><td>1,200円/個</td><td>ポケモントレーナーズマーケット</td><td>151種ランダム。10個でプレミアボール付き。スタッフ・他ゲストとの交換も楽しい</td></tr>
+<tr><td>名前入りキーホルダー</td><td><strong>1,800円/個</strong></td><td>デカヌチャンワゴン</td><td>ピカチュウ・イーブイ2種。英数字8文字以内で刻印。<strong>制作に時間がかかるため先に注文→後で受け取り</strong></td></tr>
+<tr><td>カビゴンのポップコーンバケット</td><td><strong>4,500円</strong></td><td>カビゴンのポップコーン</td><td>笛付き・お腹ぷにぷに</td></tr>
+<tr><td>アイシングクッキー（キズぐすり等）</td><td>—</td><td>フレンドリィショップ</td><td>整理券不要</td></tr>
+<tr><td>ゲーム内ドリンク</td><td>—</td><td>フレンドリィショップ</td><td>おいしいみず・サイコソーダ・ミックスオレ</td></tr>
+<tr><td>カチューシャ・ハット</td><td>—</td><td>ワゴン</td><td>大好きショップ売り切れ時はワゴンを確認</td></tr>
+<tr><td>ワゴン限定紙袋</td><td>—</td><td>ワゴン</td><td>大好きショップとは異なる限定デザイン</td></tr>
+</table>
+</div>
+
+<h3>スタッフとのポケモン（ピンズ）交換</h3>
+<ul>
+<li>スタッフの<strong>ウエストポーチ</strong>をチェックし「ポケモン交換お願いします」と声をかける</li>
+<li>お店の<strong>コルクボード</strong>にピンバッジが掲示されている場合も交換可</li>
+</ul>
+<img src="images/pin-exchange-staff.png" alt="店員さんとのポケモン交換">
+<img src="images/pin-exchange-board.png" alt="コルクボードに掲示されたピンバッジ">
+
+<h3>購入時の注意</h3>
+<ul>
+<li><strong>大好きショップの会計は1回限り</strong>。追加購入不可。入店前に欲しいものリストを作る</li>
+<li>多くの限定グッズに<strong>1人1点まで</strong>の個数制限あり</li>
+<li>大好きショップは先着整理券制（入園直後にエントリー）</li>
+<li>だいすきショップ→カヤツリタウンへの再入場はスタンプが必要</li>
+</ul>
+
+<h2>子連れ おすすめ体験・無料ミッション</h2>
+<ul>
+<li><strong>ポケモンセンター（回復体験）</strong>：ぬいぐるみを預ける → 回復装置に乗せてもらう → ゲームの「タ・タ・タ・タ・ラン♪」が流れて光の演出 → 「お預かりしたポケモンはみんな元気になりましたよ」で返却。ぬいぐるみをスタッフに見えるように持ち歩くと世界観に沿って話しかけてもらえる。<strong>ショーなどの予定と被らない隙間に入るのがベスト</strong></li>
+<li><strong>ストリートグリーティング</strong>：整理券不要・待ち時間なし。常時タウン内を散歩しているポケモンとハイタッチ・写真撮影が可能</li>
+<li><strong>ニャースワゴン（無料）</strong>：ポケカ風フォトフレームを無料でもらえる。日替わりの対象ポケモンを撮影してスタッフに見せると、そのポケモンがデザインされたステッカーがもらえる</li>
+</ul>
+<img src="images/nyas-wagon.png" alt="ニャースのワゴン">
+<ul>
+<li><strong>ディグダワゴン（無料）</strong>：ミニゲームスポット。1人1本投げられ何回でも挑戦OK。成功・失敗それぞれ対応したステッカーがもらえる</li>
+</ul>
+<img src="images/digda-wagon.png" alt="ディグダのワゴン">
+<ul>
+<li><strong>研究ノート</strong>（フォレスト）：曜日・天候で出現ポケモンが変わる仕掛けあり</li>
+<li><strong>バースデーシール</strong>：誕生日前後半年以内（実質年中）もらえる。パーク内スタッフまたはワゴン店員に申し出る。<strong>相棒ポケモン用ももらえる</strong></li>
+<li><strong>Pokémon HOMEメダル</strong>：スマホ版HOMEで現地限定来場メダルが受け取れる（全5種ランダム・無料）</li>
+<li><strong>ポケモンGOコラボ</strong>：特別なポケモンが出現（詳細は次項「Pokémon GO コラボ」参照）</li>
+</ul>
+
+<h2>Pokémon GO コラボ</h2>
+<p><strong>2026年2月5日から、『ポケパーク カントー』内で『Pokémon GO』のコラボコンテンツが楽しめる（公式発表）。</strong> 対象は『ポケパーク カントー』の開園時間中。ポケパーク単体の入場チケットとは別物で、Pokémon GOのプレイ自体に追加チケットは不要。</p>
+
+<h3>野生出現ポケモン</h3>
+<p>「ピカチュウ」「イーブイ」「コラッタ」「ポッポ」「フシギダネ」「ヒトカゲ」「ゼニガメ」「アンノーン（P）」「アンノーン（K）」が出現（<strong>いずれも色違いの可能性あり</strong>）。加えて「ポケモンフォレスト」「カヤツリタウン」の各エリアでも、それぞれ異なるポケモンと出会える。</p>
+
+<h3>フィールドリサーチ</h3>
+<p>園内のポケストップを回すと、限定の「フィールドリサーチ」タスクを入手できる。クリアすると園内限定のポケモンと出会える。<br>
+※タスクの入手は園内限定だが、<strong>タスクの消化は園外でもOK</strong>。</p>
+
+<h3>レイドバトル（4ヶ月ごとにローテーション・専用背景つき）</h3>
+<div class="table-wrap">
+<table>
+<tr><th>ポケモン</th><th>出現期間</th></tr>
+<tr><td>サンダー*</td><td>2月・3月・4月・5月</td></tr>
+<tr><td>ファイヤー*</td><td>6月・7月・8月・9月</td></tr>
+<tr><td>フリーザー*</td><td>10月・11月・12月・1月</td></tr>
+</table>
+</div>
+<p>*色違い出現の可能性あり。<strong>1人1日1回まで</strong>参加可能。</p>
+
+<div class="note">
+訪問時期（2026年7月以降）は「ファイヤー」の出現期間（6〜9月）。
+</div>
+
+<h2>予算見積もり</h2>
+<div class="table-wrap">
+<table>
+<tr><th>項目</th><th>金額</th><th>備考</th></tr>
+<tr><td>チケット（トレーナーズパス）</td><td>購入済み</td><td>—</td></tr>
+<tr><td>アトラクション（2種 × 4人）</td><td>〜9,600円</td><td>1,200円/回</td></tr>
+<tr><td>ゴンドラ往復（4人）</td><td>2,000円</td><td>往復500円/人 ※時間帯によりバスかも</td></tr>
+<tr><td>バス（往復）</td><td>2,000円</td><td>片道250円/人</td></tr>
+<tr><td>ランチ・フード</td><td>〜6,000円</td><td>フード各種</td></tr>
+<tr><td>カビゴンポップコーンバケット</td><td>4,500円</td><td>欲しければ</td></tr>
+<tr><td>ピンバッジ</td><td>応相談</td><td>10個まとめ買い = 12,000円 + プレミアボール</td></tr>
+<tr><td>グッズ等</td><td>応相談</td><td><a href="https://www.youtube.com/watch?v=hO6YYjzLgTk&t=2s">買えるグッズ一覧（YouTube）</a></td></tr>
+<tr><td>コインロッカー</td><td>現金必要</td><td>よみうりランド側。小銭を用意</td></tr>
+</table>
+</div>
+
+<h2>注意事項まとめ</h2>
+<div class="table-wrap">
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td><strong>入園ゲート</strong></td><td><strong>ポケパーク カントー専用列</strong>に並ぶ。通常列と間違えると大きなタイムロス</td></tr>
+<tr><td><strong>ポケパーク入口</strong></td><td>チケットなしでも入れるため激混み。入口写真は後回しでOK → スルーしてカヤツリタウンへ直行</td></tr>
+<tr><td>キャッシュレス</td><td>完全キャッシュレス。コインロッカーのみ現金が必要な場合あり（小銭を用意）</td></tr>
+<tr><td>再入場</td><td>カヤツリタウンはスタンプで再入場OK。フォレストとだいすきショップは再入場不可</td></tr>
+<tr><td><strong>フォレスト トイレ</strong></td><td><strong>エリア内にトイレなし</strong>。入場前に必ず済ませる（特に子ども）。フォレスト入口「キル博士研究所」前に行くこと</td></tr>
+<tr><td>フォレスト 装備</td><td>5歳未満入場不可。階段110段・急斜面。スニーカー必須。サンダル・ヒール厳禁</td></tr>
+<tr><td>ゴンドラ</td><td>早い時間は未運行の場合あり。バス（読01系統）で代替可</td></tr>
+<tr><td>モバイルバッテリー</td><td>終日アプリ使用＋QR決済＋写真で消耗激しい。<strong>1万mAh以上持参推奨</strong>（レンタルは午後に在庫切れ多い）</td></tr>
+<tr><td>だいすきショップ</td><td>レジ待ち1〜1.5時間。会計1回限り。事前に欲しいものを全部決める</td></tr>
+<tr><td>食事の席</td><td>座席少なく昼時（12〜14時）は確保困難。フレンドリィショップ裏・ポケモンセンター裏に一部あり</td></tr>
+<tr><td>ロッカー</td><td>ポケパーク内になし。よみうりランド側まで往復約20分。荷物は1回でまとめて</td></tr>
+<tr><td>無料Wi-Fi</td><td>園内フリーWi-Fi あり。アプリ通信エラー防止のため接続しておく</td></tr>
+<tr><td>バースデーシール</td><td>誕生日前後半年（実質年中）もらえる。スタッフやワゴン店員に声をかける。相棒ポケモン用もあり</td></tr>
+</table>
+</div>
+
+<h2>To Do</h2>
+<h3>最重要</h3>
+<ul class="todo">
+<li><input type="checkbox" disabled> #1 公式アプリをインストールする</li>
+<li><input type="checkbox" disabled> #5 整理券エントリーの作戦を家族で共有する</li>
+<li><input type="checkbox" disabled> #12 整理券：どのイベントを狙うか決める</li>
+</ul>
+
+<h3>事前準備</h3>
+<ul class="todo">
+<li><input type="checkbox" disabled> #2 キャッシュレス決済の準備</li>
+<li><input type="checkbox" disabled> #3 当日の服装・持ち物を準備する</li>
+<li><input type="checkbox" disabled> #6 グッズ・お土産の予算を決める</li>
+<li><input type="checkbox" disabled> #7 ポケモンのぬいぐるみを持参する（ポケモンセンター体験）</li>
+<li><input type="checkbox" disabled> #8 Pokémon HOMEアプリを準備する（現地限定メダル）</li>
+<li><input type="checkbox" disabled> #13 Pokémon GOアプリを準備する（コラボ限定ポケモン・レイド）</li>
+<li><input type="checkbox" disabled> #9 コインロッカー用の小銭を準備する</li>
+</ul>
+
+<h3>当日</h3>
+<ul class="todo">
+<li><input type="checkbox" disabled> #10 フォレスト入場前に子どもたちをトイレに連れて行く（エリア内トイレなし）</li>
+</ul>
+
+<h2>情報ソース</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=koKXOFT_Uzs&t=17s">攻略動画①</a> — メイン攻略情報</li>
+<li><a href="https://www.youtube.com/watch?v=hO6YYjzLgTk&t=2s">攻略動画②（買えるグッズ一覧）</a> — グッズ・お土産詳細</li>
+</ul>
+
+<h2>公式リンク</h2>
+<ul>
+<li><a href="https://www.pokepark-kanto.co.jp/ppark/top/index">ポケパーク カントー 公式サイト</a></li>
+<li><a href="https://www.pokepark-kanto.co.jp/ppark/access/index">アクセス情報</a></li>
+</ul>
+
+</main>
+
+<footer>ポケパーク カントー 家族旅行プラン</footer>
+
+</body>
+</html>
